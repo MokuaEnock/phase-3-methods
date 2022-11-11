@@ -15,11 +15,18 @@ end
 
 def greet_with_default(name="programmer")
   puts "Hello, #{name}!"
-
 end
 
-def halve(a)
-  return nil unless class == Integer
-  a/2
+def greet(name)
+  puts "Hello, #{name}!"
+end
+
+def add (a, b)
+  a + b
+end
+
+def halve (b)
+  return nil unless b.class == Integer
+  b/2
 end
 
